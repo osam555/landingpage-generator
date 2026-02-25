@@ -80,6 +80,9 @@ const Hero = () => (
     <div className="powered-by">
       Powered by <span style={{ color: "#D97706" }}>Anthropic Claude</span> & <span style={{ color: "#2563EB" }}>Google Gemini</span>
     </div>
+    <div style={{ marginTop: "1rem", fontSize: "0.8rem", opacity: 0.3, fontWeight: "500" }}>
+      5 SPECIALIZED AGENTS INSTALLED @ /agents
+    </div>
     <style jsx>{`
       .hero {
         text-align: center;
